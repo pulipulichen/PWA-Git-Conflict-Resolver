@@ -17,4 +17,4 @@ PWA-Git-Conflict-Resolver 是一個PWA網頁工具，專門設計用於解決Git
 
 # Citation
 
-@TODO
+Chen, Y.-T. (2024). *PWA-Git-Conflict-Resolver* (20240601.205043) [Computer software]. Zenodo. [https://doi.org/10.5281/ZENODO.11409295](https://doi.org/10.5281/ZENODO.11409295)
