@@ -6,7 +6,7 @@ PWA-Git-Conflict-Resolver is an progressive web application designed to resolve 
 
 PWA-Git-Conflict-Resolver 是一個PWA網頁工具，專門設計用於解決Git版本控制中的衝突問題。此應用程式以PWA（進階Web應用程式）的形式提供，讓使用者可以在任何裝置上流暢使用，並且提供簡單的介面來輔助解決代碼合併衝突。
 
-@TODO image
+![](https://blogger.googleusercontent.com/img/a/AVvXsEims0QxdORF0H3lGsXAB24XdKU-h79lMMzZ8hHJh9a3h7T_aVhKanrm7E4mAAhrVdqnqoEGD5XifgNua8T2Cz0vFVRErz_Cj5QBlXoWNqr6vccshLGr3gJTlQ2LJ0UnRo6ul_BrVB9DsG5gIsGxVgxpT-Cc5_OocXacfP5mV8WhU-Pt_8gkHm1LBA)
 
 # Key Techniques
 
