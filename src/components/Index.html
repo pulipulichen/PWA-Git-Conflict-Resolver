@@ -1,0 +1,14 @@
+<div class="Index"
+  v-show="db.config.inited">
+
+  <div class="ui text container segment InputPanels">
+    <h1 class="ui horizontal divider header">
+      {{ $t('Git Conflict Resolver') }}
+    </h1>
+    
+    <InputPanel 
+      ref="InputPanel"
+      :db="db">
+    </InputPanel>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+<div class="InputPanel ui form">
+  
+    <div class="ui center aligned grid">
+      <div class="row">
+        <div class="field">
+          <div class="ui radio checkbox">
+            <input type="radio" id="ours" name="version" v-model="db.localConfig.checkout" value="ours">
+            <label for="ours">Ours</label>
+          </div>
+        </div>
+        <div class="field">
+          <div class="ui radio checkbox">
+            <input type="radio" id="theirs" name="version" v-model="db.localConfig.checkout" value="theirs">
+            <label for="theirs">Theirs</label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <button type="button" class="ui fluid button"
+      @click="resolveConflict">{{ $t('Resolve') }}</button>
+    
+
+    <div class="two fields">
+      <div class="eight wide field">
+        <textarea id="input" v-model="db.localConfig.inputText" 
+          wrap="off"
+          :placeholder="$t('Paste your git conflict text here')"></textarea>
+          <button type="button" class="ui fluid button"
+            @click="db.utils.ClipboardUtils.copyPlainString(db.localConfig.inputText)">{{ $t('COPY') }}</button>
+      </div>
+      <div class="eight wide field">
+        <textarea id="output" v-model="db.localConfig.outputText" 
+          wrap="off"
+          :placeholder="$t('Resolved text will appear here')" readonly></textarea>
+        <button type="button" class="ui fluid button"
+            @click="db.utils.ClipboardUtils.copyPlainString(db.localConfig.outputText)">{{ $t('COPY') }}</button>
+      </div>
+    </div>
+</div>
