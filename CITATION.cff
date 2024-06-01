@@ -11,4 +11,4 @@ repository-code: "https://github.com/pulipulichen/PWA-Git-Conflict-Resolver"
 abstract: "A progressive web application designed to resolve conflicts in Git version control."
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.11312600
+    value: 10.5281/zenodo.11409295

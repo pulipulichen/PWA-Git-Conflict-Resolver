@@ -1,4 +1,4 @@
-@TODO DOI
+[![DOI](https://zenodo.org/badge/808990689.svg)](https://zenodo.org/doi/10.5281/zenodo.11409295)
 
 # PWA-Git-Conflict-Resolver: 一個用於解決Git衝突的網頁工具。
 
