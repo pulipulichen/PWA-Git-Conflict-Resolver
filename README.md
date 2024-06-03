@@ -10,14 +10,13 @@ PWA-Git-Conflict-Resolver 是一個PWA網頁工具，專門設計用於解決Git
 
 # Online Tool
 
-https://pulipulichen.github.io/PWA-Git-Conflict-Resolver/#/
+https://pulipulichen.github.io/PWA-Git-Conflict-Resolver/
 
 # Key Techniques
 
-- Progressive Web App (PWA): 提供跨裝置的流暢使用體驗。
-- Git: 用於版本控制和衝突管理。
-- Vue.js: MVVM的控制框架。
-- Semantic UI: 現代網頁的樣式框架。
+- **Progressive Web App (PWA)**: 提供跨裝置的流暢使用體驗。
+- **Vue.js**: MVVM的控制框架。
+- **Semantic UI**: 現代網頁的樣式框架。
 
 # Citation
 
