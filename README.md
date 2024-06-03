@@ -14,9 +14,9 @@ https://pulipulichen.github.io/PWA-Git-Conflict-Resolver/
 
 # Key Techniques
 
-- **Progressive Web App (PWA)**: 提供跨裝置的流暢使用體驗。
+- **Progressive Web App (PWA)**: 可安裝在電腦或手機上的網頁架構設計。
 - **Vue.js**: MVVM的控制框架。
-- **Semantic UI**: 現代網頁的樣式框架。
+- **Semantic UI**: 現代網頁的RWD樣式框架。
 
 # Citation
 
