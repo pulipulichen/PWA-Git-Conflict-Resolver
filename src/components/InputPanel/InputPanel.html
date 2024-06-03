@@ -1,14 +1,14 @@
 <div class="InputPanel ui form">
   
     <div class="ui center aligned grid">
-      <div class="row">
-        <div class="field">
+      <div class="row two fields radios">
+        <div class="eight wide left field">
           <div class="ui radio checkbox">
             <input type="radio" id="ours" name="version" v-model="db.localConfig.checkout" value="ours">
             <label for="ours">Ours</label>
           </div>
         </div>
-        <div class="field">
+        <div class="eight wide right field">
           <div class="ui radio checkbox">
             <input type="radio" id="theirs" name="version" v-model="db.localConfig.checkout" value="theirs">
             <label for="theirs">Theirs</label>
